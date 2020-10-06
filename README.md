@@ -9,7 +9,7 @@ Then we execute the following command to put the nexus installation package unde
 $ cd /home 
 $ wget https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/3/nexus-3.28.0-01-unix.tar.gz 
 $ tar -zxvf nexus-3.28.0-01-unix.tar.gz
-$ mv nexus-3.16.1-02-unix ./nexus
+$ mv nexus-3.28.0-01-unix ./nexus
 
 Step-2 --> Modify the user used to run nexus 
 $ cd /home/nexus/bin 
