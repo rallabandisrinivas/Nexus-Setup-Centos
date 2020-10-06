@@ -13,7 +13,8 @@ $ mv nexus-3.16.1-02-unix ./nexus
 
 Step-2 --> Modify the user used to run nexus 
 $ cd /home/nexus/bin 
-$ vim nexus.rc run_as_user="root"
+$ vim nexus.rc 
+run_as_user="root"
 
 Step-3 --> Modify nexus startup port 
 $ vim /home/nexus/etc/nexus-default.properties
